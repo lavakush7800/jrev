@@ -7,13 +7,11 @@ public class Per {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Enter Physics Marks: ");
-		int Physics = sc.nextInt();
+		int n= sc.nextInt();
 		
-		System.out.print("Enter Maths Marks: ");
-		int Maths = sc.nextInt();
-		
-		System.out.print("Enter Chemistry Marks: ");
-		int Chemistry = sc.nextInt();
+		if(n<=90 && n>=100) {
+			System.out.println();
+		}
 	}
 
 }
