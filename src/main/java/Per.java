@@ -10,6 +10,8 @@ public class Per {
 	      float scored;
 	      System.out.println("Enter your marks ::");
 	      scored = sc.nextFloat();
+	      System.out.println("Enter total marks ::");
+	      total_marks = sc.nextFloat();
 
 	}
 
