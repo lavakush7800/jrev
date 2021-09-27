@@ -12,6 +12,8 @@ public class Per {
 	      scored = sc.nextFloat();
 	      System.out.println("Enter total marks ::");
 	      total_marks = sc.nextFloat();
+	      percentage = (float)((scored / total_marks) * 100);
+	      System.out.println("Percentage ::"+ percentage);
 
 	}
 
