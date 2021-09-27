@@ -12,7 +12,8 @@ public class Per {
 		System.out.print("Enter Maths Marks: ");
 		int Maths = sc.nextInt();
 		
-
+		System.out.print("Enter Chemistry Marks: ");
+		int Chemistry = sc.nextInt();
 	}
 
 }
