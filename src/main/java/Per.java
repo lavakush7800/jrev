@@ -8,6 +8,8 @@ public class Per {
 	      float percentage;
 	      float total_marks;
 	      float scored;
+	      System.out.println("Enter your marks ::");
+	      scored = sc.nextFloat();
 
 	}
 
