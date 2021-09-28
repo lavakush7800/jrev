@@ -10,6 +10,9 @@ public class Percentage {
 		
 		System.out.println();
 		int chemistry = sc.nextInt();
+		
+		System.out.println();
+		int physics = sc.nextInt();
 
 	}
 
