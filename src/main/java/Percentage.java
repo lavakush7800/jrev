@@ -6,6 +6,7 @@ public class Percentage {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println();
+		int math = sc.nextInt();
 
 	}
 
