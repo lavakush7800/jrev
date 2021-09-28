@@ -20,6 +20,11 @@ public class Percentage {
 		
 		System.out.print("Enter Number of English :");
 		int english = sc.nextInt();
+		
+		int total;
+	    total = hindi + english + math + physics + chemistry;
+	    
+	    System.out.println(total);
 
 	}
 
