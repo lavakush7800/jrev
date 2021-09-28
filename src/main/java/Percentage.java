@@ -21,10 +21,15 @@ public class Percentage {
 		System.out.print("Enter Number of English :");
 		int english = sc.nextInt();
 		
+		float percentage;
 		int total;
 	    total = hindi + english + math + physics + chemistry;
 	    
-	    System.out.println(total);
+	    System.out.println("You are total Number od Earned is : "+ total);
+	    
+	    percentage = total/500 * 100;
+	    System.out.println("Your Percentage is : "+percentage);
+	    
 
 	}
 
