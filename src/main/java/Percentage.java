@@ -7,6 +7,9 @@ public class Percentage {
 		Scanner sc = new Scanner(System.in);
 		System.out.println();
 		int math = sc.nextInt();
+		
+		System.out.println();
+		int chemistry = sc.nextInt();
 
 	}
 
