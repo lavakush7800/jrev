@@ -7,27 +7,27 @@ public class Percentage {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Enter Number of Maths :");
-		int math = sc.nextInt();
+		float math = sc.nextFloat();
 		
 		System.out.print("Enter Number of Chemistry :");
-		int chemistry = sc.nextInt();
+		float chemistry = sc.nextFloat();
 		
 		System.out.print("Enter Number of Physics :");
-		int physics = sc.nextInt();
+		float physics = sc.nextFloat();
 		
 		System.out.print("Enter Number of Hindi :");
-		int hindi = sc.nextInt();
+		float hindi = sc.nextFloat();
 		
 		System.out.print("Enter Number of English :");
-		int english = sc.nextInt();
+		float english = sc.nextFloat();
 		
 		float percentage;
-		int total;
+		float total;
 	    total = hindi + english + math + physics + chemistry;
 	    
-	    System.out.println("You are total Number od Earned is : "+ total);
+	    System.out.println("You are total Number Earned is : "+ total);
 	    
-	    percentage = total/500 * 100;
+	    percentage = (float)((total/500) * 100);
 	    System.out.println("Your Percentage is : "+percentage);
 	    
 
