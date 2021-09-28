@@ -17,6 +17,9 @@ public class Percentage {
 		
 		System.out.println();
 		int hindi = sc.nextInt();
+		
+		System.out.println();
+		int engilsh = sc.nextInt();
 
 	}
 
