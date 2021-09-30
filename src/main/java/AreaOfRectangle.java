@@ -12,7 +12,9 @@ public class AreaOfRectangle {
 		System.out.println();
 		float width = sc.nextFloat();
 		
-		float area = hieght * width;
+		float area;
+		area  = hieght * width;
+		System.out.println(area);
 
 	}
 
