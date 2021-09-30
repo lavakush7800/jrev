@@ -7,7 +7,7 @@ public class Result {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter Number of Hindi");
+		System.out.print("Enter Number of Hindi");
 		float hindi = sc.nextInt();
 		
 		System.out.println("Enter Number of English");
