@@ -7,19 +7,19 @@ public class Result {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Enter Number of Hindi");
+		System.out.print("Enter Number of Hindi : ");
 		float hindi = sc.nextInt();
 		
-		System.out.print("Enter Number of English");
+		System.out.print("Enter Number of English: ");
 		float english = sc.nextFloat();
 
-		System.out.print("Enter Number of Physics");
+		System.out.print("Enter Number of Physics :");
 		float physics = sc.nextFloat();
 		
-		System.out.print("Enter Number of Chemistry");
+		System.out.print("Enter Number of Chemistry :");
 		float chemistry = sc.nextFloat();
 		
-		System.out.print("Enter Number of Maths");
+		System.out.print("Enter Number of Maths :");
 		float math = sc.nextFloat();
 		
 		float percentage;
