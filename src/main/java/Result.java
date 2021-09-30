@@ -14,6 +14,9 @@ public class Result {
 
 		System.out.println();
 		int physics = sc.nextInt();
+		
+		System.out.println();
+		int chemistry = sc.nextInt();
 	}
 
 }
