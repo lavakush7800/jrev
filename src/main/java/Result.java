@@ -4,25 +4,30 @@ public class Result {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter Number of Hindi");
-		int hindi = sc.nextInt();
+		float hindi = sc.nextInt();
 		
 		System.out.println("Enter Number of English");
-		int english = sc.nextInt();
+		float english = sc.nextFloat();
 
 		System.out.println("Enter Number of Physics");
-		int physics = sc.nextInt();
+		float physics = sc.nextFloat();
 		
 		System.out.println("Enter Number of Chemistry");
-		int chemistry = sc.nextInt();
+		float chemistry = sc.nextFloat();
 		
 		System.out.println("Enter Number of Maths");
-		int math = sc.nextInt();
+		float math = sc.nextFloat();
 		
-		int total = hindi + english + physics + chemistry + math;
-		System.out.println(total);
+		float percentage;
+		float total = hindi + english + physics + chemistry + math;
+		System.out.println("You are Total Number of Earned "+total);
+		
+		percentage = ((float)(total/500)*100);
+		System.out.println("Your Percentage is : "+percentage);
 	}
 
 }
