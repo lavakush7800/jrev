@@ -27,7 +27,7 @@ public class Result {
 		System.out.print("You are Total Number of Earned "+total);
 		
 		percentage = ((float)(total/500)*100);
-		System.out.println("Your Percentage is : "+percentage);
+		System.out.print("Your Percentage is : "+percentage);
 	}
 
 }
