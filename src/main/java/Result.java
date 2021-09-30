@@ -19,7 +19,7 @@ public class Result {
 		System.out.print("Enter Number of Chemistry");
 		float chemistry = sc.nextFloat();
 		
-		System.out.println("Enter Number of Maths");
+		System.out.print("Enter Number of Maths");
 		float math = sc.nextFloat();
 		
 		float percentage;
