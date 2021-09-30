@@ -13,7 +13,7 @@ public class Result {
 		System.out.print("Enter Number of English");
 		float english = sc.nextFloat();
 
-		System.out.println("Enter Number of Physics");
+		System.out.print("Enter Number of Physics");
 		float physics = sc.nextFloat();
 		
 		System.out.println("Enter Number of Chemistry");
