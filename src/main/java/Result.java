@@ -12,7 +12,7 @@ public class Result {
 		System.out.println("Enter Number of English");
 		int english = sc.nextInt();
 
-		System.out.println();
+		System.out.println("Enter Number of Physics");
 		int physics = sc.nextInt();
 		
 		System.out.println();
