@@ -9,7 +9,7 @@ public class Result {
 		System.out.println("Enter Number of Hindi");
 		int hindi = sc.nextInt();
 		
-		System.out.println();
+		System.out.println("Enter Number of English");
 		int english = sc.nextInt();
 
 		System.out.println();
