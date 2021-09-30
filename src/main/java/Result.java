@@ -21,7 +21,8 @@ public class Result {
 		System.out.println("Enter Number of Maths");
 		int math = sc.nextInt();
 		
-		float total = hindi + english + physics + chemistry + math;
+		int total = hindi + english + physics + chemistry + math;
+		System.out.println(total);
 	}
 
 }
