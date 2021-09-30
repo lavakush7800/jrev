@@ -16,7 +16,7 @@ public class Result {
 		System.out.print("Enter Number of Physics");
 		float physics = sc.nextFloat();
 		
-		System.out.println("Enter Number of Chemistry");
+		System.out.print("Enter Number of Chemistry");
 		float chemistry = sc.nextFloat();
 		
 		System.out.println("Enter Number of Maths");
