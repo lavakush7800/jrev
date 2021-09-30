@@ -6,7 +6,7 @@ public class Result {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println();
+		System.out.println("Enter Number of Hindi");
 		int hindi = sc.nextInt();
 		
 		System.out.println();
