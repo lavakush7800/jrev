@@ -12,6 +12,8 @@ public class Result {
 		System.out.println();
 		int english = sc.nextInt();
 
+		System.out.println();
+		int physics = sc.nextInt();
 	}
 
 }
