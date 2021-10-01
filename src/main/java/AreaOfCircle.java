@@ -11,7 +11,7 @@ public class AreaOfCircle {
 		
 		double area = (22*r*r)/7;
 		
-		System.out.println(area);
+		System.out.println("Area of Circle is : "+area);
 	}
 
 }
