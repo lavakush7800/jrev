@@ -7,8 +7,9 @@ public class AreaOfCircle {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println();
-		double area = sc.nextDouble();
-
+		double r = sc.nextDouble();
+		
+		double area = (22*r*r)/7;
 	}
 
 }
