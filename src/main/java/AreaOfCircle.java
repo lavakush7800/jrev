@@ -10,6 +10,8 @@ public class AreaOfCircle {
 		double r = sc.nextDouble();
 		
 		double area = (22*r*r)/7;
+		
+		System.out.println(area);
 	}
 
 }
