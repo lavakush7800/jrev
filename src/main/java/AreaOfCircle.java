@@ -6,7 +6,7 @@ public class AreaOfCircle {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println();
+		System.out.println("Enter A Number");
 		double r = sc.nextDouble();
 		
 		double area = (22*r*r)/7;
