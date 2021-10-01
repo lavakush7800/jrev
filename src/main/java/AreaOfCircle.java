@@ -6,6 +6,8 @@ public class AreaOfCircle {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println();
+		double area = sc.nextDouble();
 
 	}
 
