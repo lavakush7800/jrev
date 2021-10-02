@@ -6,6 +6,7 @@ public class PatWeb {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number : ");
+		int n = sc.nextInt();
 
 	}
 
