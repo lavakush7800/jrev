@@ -10,7 +10,9 @@ public class Factorial {
 		
 		if(n>=0) {
 			int fact = 1;
-			
+			for(int i=n; i>=1; i--) {
+				
+			}
 		}
 	}
 
