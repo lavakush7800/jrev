@@ -9,7 +9,9 @@ public class PatWeb {
 		int n = sc.nextInt();
 		int count = 0;
 		for(int i=1; i<=n; i++) {
-			count = count+1;
+			for(int j=1; j<=i; j++) {
+				count = count+1;
+			}
 		}
 	}
 
