@@ -7,7 +7,10 @@ public class Factorial {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Factorial Number : ");
 		int n = sc.nextInt();
-
+		
+		if(n>=0) {
+			
+		}
 	}
 
 }
