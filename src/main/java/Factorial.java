@@ -14,7 +14,7 @@ public class Factorial {
 				fact = fact*i;
 			System.out.println("Factorial number "+n+" is "+fact);
 		}else {
-			
+			System.out.println("You are Entered Wrong Number ");
 		}
 	}
 
